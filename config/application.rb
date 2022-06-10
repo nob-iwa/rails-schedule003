@@ -20,6 +20,7 @@ module Schedule
     # config.eager_load_paths << Rails.root.join("extras")
     config.hosts << ".amazonaws.com"
     config.hosts << "b7ccd30e52394b60ad8c96b2d92772e4.vfs.cloud9.ap-northeast-1.amazonaws.com"
-
+    config.time_zone = 'Tokyo'
+    config.i18n.default_locale=:ja
   end
 end
